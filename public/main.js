@@ -3,8 +3,8 @@ async function init() {
 
     try {
         rustApp = await import('../pkg')
-    } catch(e) {
-        console.error(e)
+    } catch(err) {
+        console.error(err)
         return;
     }
 
